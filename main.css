@@ -1,6 +1,7 @@
 body {
     background-image: url("background.png");
-    background-attachment: scroll;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
 }
 
 #icon {
@@ -17,12 +18,13 @@ body {
 }
 
 .download {
-    width: 32vw;
-    height: 24vw;
+    width: 48vw;
+    height: 32vw;
 }
 
 #description {
     backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
     border-radius: 24px;
     padding: 2vh 4vw;
     margin: 2vh 4vw;
