@@ -1,0 +1,38 @@
+body {
+    background-image: url("background.png");
+    background-attachment: fixed;
+}
+
+#icon {
+    border-radius: 16px;
+    width: 8vw;
+    height: 8vw;
+    margin-right: 16px;
+}
+
+#title {
+    text-align: center;
+    color: white;
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+.download {
+    width: 18vw;
+    height: 8vw;
+}
+
+#box {
+    backdrop-filter: blur(10px);
+}
+
+#description {
+    backdrop-filter: blur(12px);
+    border-radius: 24px;
+    padding: 2vh 4vw;
+}
+
+li {
+    color: white;
+    font-size: 1.1em;
+}
