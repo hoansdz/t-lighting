@@ -18,21 +18,21 @@ body {
 }
 
 .download {
-    width: 18vw;
-    height: 8vw;
-}
-
-#box {
-    backdrop-filter: blur(10px);
+    width: 22vw;
+    height: 12vw;
 }
 
 #description {
     backdrop-filter: blur(12px);
     border-radius: 24px;
     padding: 2vh 4vw;
+    margin: 2vh 4vw;
+    background-color: rgba(255, 255, 255, 0.3);
 }
 
 li {
     color: white;
-    font-size: 1.1em;
+    font-size: 1.2em;
+    font-family: sans-serif;
+    line-height: 1.4;
 }
