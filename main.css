@@ -11,6 +11,17 @@ body {
     margin-right: 4vw;
 }
 
+#contact {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.contact_icon {
+    width: 2.5em;
+    height: 2.5em;
+}
+
 #title {
     color: white;
     font-size: 1.4em;
