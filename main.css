@@ -1,19 +1,18 @@
 body {
     background-image: url("background.png");
-    background-attachment: fixed;
+    background-attachment: scroll;
 }
 
 #icon {
     border-radius: 0.3em;
-    width: 1.8em;
-    height: 1.8em;
-    margin-right: 3vw;
+    width: 2em;
+    height: 2em;
+    margin-right: 4vw;
 }
 
 #title {
-    
     color: white;
-    font-size: 1.5em;
+    font-size: 1.4em;
     font-weight: bold;
 }
 
@@ -37,7 +36,7 @@ li {
     line-height: 1.4;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 769px) {
     #icon {
         border-radius: 0.6em;
         width: 3em;
@@ -53,7 +52,7 @@ li {
     }
 
     .download {
-        width: 36vw;
-        height: 20vw;
+        width: 24vw;
+        height: 14vw;
     }
 }
